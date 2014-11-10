@@ -1,0 +1,116 @@
+@charset "gb2312";
+/* CSS Document */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;font-family: Arial, Helvetica, sans-serif; text-decoration:none;}  
+body{line-height:1;width:100%;text-align:center}  
+ol,ul{ list-style: none;}  
+blockquote,q{quotes: none;}  
+blockquote:before,blockquote:after,q:before,q:after{content: '';content: none;}  
+/* remember to define focus styles! */  
+:focus {outline: 0;}  
+/* remember to highlight inserts somehow! */  
+ins {text-decoration: none;}  
+del{text-decoration: line-through;}  
+/* tables still need 'cellspacing="0"' in the markup */  
+table{border-collapse: collapse;border-spacing: 0;} 
+.displayinlb{display:inline-block;}
+.displayb{display:block;}
+
+.header{background:url(Home_files/bg.jpg);height:640px;position:relative;padding:0;text-align:center;}
+h1{color:#ffffff; font:300 200% Arial ;margin-top:60px}
+a.logo{width:84px;height:96px;margin-top:120px;}
+h4{font:200 160% Arial;color:#ffffff;border:2px solid;padding:10px 35px 10px 15px;margin-top:30px;border-radius:5px; background:url(Home_files/arrow.png) transparent no-repeat 95% 50%;}
+h4:hover{color:#E74C3C; background-image:url(Home_files/arrowh.png);}
+.nav{background-color:#1B242F;text-align:center;display:inline;width:100%;position:absolute;bottom:0;left:0; z-index:100}
+.nav a{color:#ffffff;font-size:inherit;font-weight:100;line-height:2;display:inline-block;}
+.nav ul{display:inline-block;width:80%}
+li{float:left;display:inline-block;margin-right:10px;width:15%}
+a.maila{padding:0;vertical-align:baseline;text-align:left}
+.nav a:hover{color:#E74C3C}
+.mail{width:32px;height:32px;margin:0;background:url(Home_files/msg.png) no-repeat 0 0;padding:0;}
+a.navlist{vertical-align:baseline;}
+.navli{height:24px;background:url(Home_files/nav-icon.png) no-repeat 0 0;}
+/*.navlistul{display:none;width:100px;height:400px;}
+.navlistul li{float:none;display:none;}
+.navlist:hover .navlistul{display:block;z-index:20;}
+.navlist
+*/
+
+#container{text-align:center;padding-left:0;color:#888888;;width:100%;height:auto;margin-bottom:1em;display:inline; clear:both}
+#container ul{display:inline-block}
+#container dl{width:160px;height:148px;display:block;margin-left:-5px;}
+dt{font-size:1.2em;font-weight:200;}
+#container dt{margin-bottom:20px;width:180px;display:block;padding-top:160px;}
+#container li{height:320px;margin:5px 10px;padding:0 0 0 10px;width:180px;}
+#container li:hover{background-color:#6FF;}
+dd{font-size:0.8em;font-weight:100;line-height:1.2em;}
+#container dd{width:160px;margin-left:10px;}
+.dla{background:url(Home_files/icons.png) no-repeat 20px 5px;}
+.dlb{background:url(Home_files/icons.png) no-repeat -265px 5px;}
+.dlc{background:url(Home_files/icons.png) no-repeat -550px 5px;}
+.dld{background:url(Home_files/icons.png) no-repeat -840px 5px;}
+.dla:hover{background:url(Home_files/icons.png) no-repeat 20px -145px;}
+.dlb:hover{background:url(Home_files/icons.png) no-repeat -265px -145px;}
+.dlc:hover{background:url(Home_files/icons.png) no-repeat -550px -145px;}
+.dld:hover{background:url(Home_files/icons.png) no-repeat -840px -145px;}
+
+#about{color:#888888;margin-top:10px;width:100%;padding:0;position:relative;height:auto;left:0;clear:both;text-align:center; }
+.device{margin:0;;height:auto;width:30%; vertical-align:top}
+.rpd{height:auto;width:30%;}
+.rpd h3{font-size:180%;margin-bottom:0.6em;}
+.rpd p{font-size:80%;}
+.rpdtop{background-color:#9FF;padding:5px; border-radius:6px;}
+.rpdtop p:first-line{color:#666666;}
+a.readmore{color:#ffffff;border:1px solid #E74C3C;width:120px;padding:10px;border-radius:5px; background:url(Home_files/arrow.png) #E74C3C no-repeat 95% 50%;;font-size:120%;font-weight:400;margin-top:1em;text-align:left;}
+a.readmore:hover{ background-color:#ffffff;color:#E74C3C;background-image:url(Home_files/arrowh.png)}
+
+#portfolio{background-color:#FAF8F8;margin-top:30px;width:100%;padding:20px auto;position:relative;clear:both;text-align:center}
+.portfoliocont{background-color:#35C77B;width:70%;padding:10px;border-radius:1em;text-align:center}
+#portfolio h3{font-size:200%;color:#666666;margin-bottom:10px;}
+#portfolio span{font-size:120%;color:#ffffff;display:inline-block;padding:5px 10px;}
+p.portfolionav{text-align:center;margin:20px auto;}
+#portfolio a{border:2px solid #666666;color:#666666; background-color:#ffffff;border-radius:8px;padding:5px 10px;font-size:1.2;margin-right:5px}
+#portfolio a:hover{border:2px solid #E74C3C;color:#ffffff;background-color:#E74C3C;}
+
+#portfoliolist{width:100%;margin:0;padding:0;}
+#portfoliolist .imgl{width:100%}
+#portfoliolist li{width:25%;float:left;display:block;position: relative;margin:0;padding:0}
+#portfoliolist img.imgr{display:none;position:absolute;left:0;top:30%;width:90px;height:90px;}
+#portfoliolist a:hover img.imgr{display:block; z-index:10;}
+
+.carousel-inner{background-color:#455261;height:300px;width:100%;clear:both;text-align:center;}
+img.name{margin:30px auto; border-radius:85px;}
+.carousel-inner dl{text-align:center;color:#ffffff;display:inline}
+.carousel-inner dt{font-size:2em;}
+.carousel-inner dt:hover:before{content:"The Author:";}
+.carousel-inner dd{font-size:1em;width:50%;margin-top:20px;display:inline-block;}
+dd.pagenate{margin-top:20px;}
+.carousel-inner span{display:inline-block;width:16px;height:16px;margin-left:5px;margin-right:5px;}
+.carousel-inner span.pagenatea{background:url(Home_files/pagenate.png) left no-repeat;}
+.carousel-inner span.pagenateb{background:url(Home_files/pagenate.png) center no-repeat;}
+.carousel-inner span.pagenatec{background:url(Home_files/pagenate.png) right no-repeat;}
+
+#contact{margin:0;padding:10px;text-align:center;display:inline;}
+h2{font-size:2em;color:#666666;margin-top:60px}
+#contact span{color:#858585;width:50%;margin-top:30px;display:inline-block;margin-bottom:30px;}
+input,textarea{line-height:1.4em;padding:16px;border:2px solid #E5E5E5;font-size:1.6em;color:#858585;text-align:left; vertical-align:middle;}
+input{height:auto;width:400px;}
+#contact ul{display:inline-block;}
+#contact li{clear:both;margin-bottom:20px;}
+form.contactfm{margin-top:40px;padding:0;display:inline;align:top}
+textarea.contactms{overflow:hidden;margin:0;vertical-align:top}
+input.contactsb{clear:both;margin-top:30px;border:1px solid #E74C3C; border-radius:8px;color:#fff;font:400 140% Arial;background:url(Home_files/racket-icon.png) 20px center no-repeat scroll #E74C3C;padding:10px 20px;text-align:right;width:260px;}
+input.contactsb:hover{background-color:#D34738;cursor:pointer;}
+textarea:hover,input:hover{border-color:#E74C3C;}
+textarea:focus,input:focus{background-color:#ffffcc;}
+
+#footer{margin-top:30px;padding:10px;text-align:center;clear:both}
+#footer ul{margin-top:10px;display:inline-block;}
+#footer li{margin-right:20px;}
+#footer ul span{display:inline-block;width:35px;height:32px;padding:0;}
+span.sociala{background:url(Home_files/social-icons.png) 8px 0 no-repeat;}
+span.socialb{background:url(Home_files/social-icons.png) -62px 0 no-repeat;}
+span.socialc{background:url(Home_files/social-icons.png) -137px 0 no-repeat;}
+span.sociala:hover{background:url(Home_files/social-icons.png) 8px -38px no-repeat;}
+span.socialb:hover{background:url(Home_files/social-icons.png) -62px -38px no-repeat;}
+span.socialc:hover{background:url(Home_files/social-icons.png) -137px -38px no-repeat;}
+.crt{width:80%;margin-top:60px;padding:0;}
