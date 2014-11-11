@@ -1,2 +1,3 @@
 // JavaScript Document
-/*alert(document.styleSheets.length); */
+var item=document.getElementsByTagName("img");
+item[0].setAttribute("title","logo");
