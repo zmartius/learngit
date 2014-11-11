@@ -60,7 +60,7 @@ class Smarty extends Smarty_Internal_TemplateBase
     const COMPILECHECK_OFF = 0;
     const COMPILECHECK_ON = 1;
     const COMPILECHECK_CACHEMISS = 2;
-       const PHP_PASSTHRU = 0; //-> print tags as plain text
+    const PHP_PASSTHRU = 0; //-> print tags as plain text
     const PHP_QUOTE = 1; //-> escape tags as entities
     const PHP_REMOVE = 2; //-> escape tags as entities
     const PHP_ALLOW = 3; //-> escape tags as entities

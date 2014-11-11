@@ -54,21 +54,22 @@ dd{font-size:0.8em;font-weight:100;line-height:1.2em;}
 .dld:hover{background:url(Home_files/icons.png) no-repeat -840px -145px;}
 
 #about{color:#888888;margin-top:10px;width:100%;padding:0;position:relative;height:auto;left:0;clear:both;text-align:center; }
-.device{margin:0;;height:auto;width:30%; vertical-align:top}
-.rpd{height:auto;width:30%;}
-.rpd h3{font-size:180%;margin-bottom:0.6em;}
-.rpd p{font-size:80%;}
-.rpdtop{background-color:#9FF;padding:5px; border-radius:6px;}
-.rpdtop p:first-line{color:#666666;}
+#about .device{margin:0;;height:auto;width:30%; vertical-align:top}
+#about .rpd{height:auto;width:30%;}
+#about .rpd h3{font-size:180%;margin-bottom:0.6em;}
+#about .rpd p{font-size:80%;}
+#about .rpdtop{background-color:#9FF;padding:5px; border-radius:6px;}
+#about .rpdtop p:first-line{color:#666666;}
 a.readmore{color:#ffffff;border:1px solid #E74C3C;width:120px;padding:10px;border-radius:5px; background:url(Home_files/arrow.png) #E74C3C no-repeat 95% 50%;;font-size:120%;font-weight:400;margin-top:1em;text-align:left;}
 a.readmore:hover{ background-color:#ffffff;color:#E74C3C;background-image:url(Home_files/arrowh.png)}
 
-#portfolio{background-color:#FAF8F8;margin-top:30px;width:100%;padding:20px auto;position:relative;clear:both;text-align:center}
-.portfoliocont{background-color:#35C77B;width:70%;padding:10px;border-radius:1em;text-align:center}
+#portfolio{background-color:#FAF8F8;margin-top:30px;width:100%;padding:15px auto;position:relative;clear:both;text-align:center;height:auto;}
+#portfolio .portfoliocont{background-color:#35C77B;width:70%;padding:10px 5px;border-radius:1em;text-align:center}
 #portfolio h3{font-size:200%;color:#666666;margin-bottom:10px;}
 #portfolio span{font-size:120%;color:#ffffff;display:inline-block;padding:5px 10px;}
-p.portfolionav{text-align:center;margin:20px auto;}
-#portfolio a{border:2px solid #666666;color:#666666; background-color:#ffffff;border-radius:8px;padding:5px 10px;font-size:1.2;margin-right:5px}
+#portfolio p.portfolionav{text-align:center;margin:20px auto;pading:0;}
+#portfolio p.portfolionav span{margin-right:5px;margin-left:0;padding:0;}
+#portfolio a{border:2px solid #666666;color:#666666; background-color:#ffffff;border-radius:8px;font-size:1.2;padding:5px 8px;margin:0}
 #portfolio a:hover{border:2px solid #E74C3C;color:#ffffff;background-color:#E74C3C;}
 
 #portfoliolist{width:100%;margin:0;padding:0;}

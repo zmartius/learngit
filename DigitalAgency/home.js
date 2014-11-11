@@ -1,2 +1,2 @@
 // JavaScript Document
-alert(document.styleSheets.length);
+/*alert(document.styleSheets.length); */

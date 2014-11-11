@@ -1,36 +1,28 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="shortcut icon" type="image/x-icon" href="Home_files/fav-icon.png" />
-<link rel="shortcut icon" type="image/x-icon" href="Home_files/fav-icon.png" />
-<title>digitalagency</title>
-<link href="digitalagency.css" rel="stylesheet" type="text/css" />
-<script src="home.js"></script>
-</head>
-<body>
-<div class="header displayb">
-	<a href="#" class="logo displayinlb"><img src="Home_files/logo.png" alt="logo" /></a>
-    <h1>We are a Creative Digital Agency</h1>
-    <a href="#" ><h4 class="displayinlb">Learn More</h4></a>
-   <div class="nav">
-    <ul>
-    	<li><a href="#">Home</a></li>
-		<li><a href="#about">About</a></li>
-		<li><a href="#portfolio">Portfolio</a></li>
-		<li><a href="#portfoliolist">Testimonials</a></li>
-        	 </ul>
-    <a href="#" class="maila displayinlb"><span class="mail displayinlb"></span></a>
-    <a href="#" class="navlist displayinlb maila"><span class="navli mail displayinlb"></span></a>
-  <!--<ul class="navlistul">
-    	<li><a href="#">Home</a></li>
-		<li><a href="#">About</a></li>
-		<li><a href="#">Portfolio</a></li>
-		<li><a href="#">Testimonials</a></li>
-        	 </ul>-->
-       </div>
-       </div>
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2014-11-11 10:40:17
+         compiled from ".\smarty\templates\index.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:211525461735ea963e4-33041009%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '189585f8d11582dc03ce54cbf59444a4928565a3' => 
+    array (
+      0 => '.\\smarty\\templates\\index.tpl',
+      1 => 1415673603,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '211525461735ea963e4-33041009',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.21-dev',
+  'unifunc' => 'content_5461735eb66b40_57285855',
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_5461735eb66b40_57285855')) {function content_5461735eb66b40_57285855($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+
+<?php echo $_smarty_tpl->getSubTemplate ("links.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+
 <div id="container">
 	<ul>
     <li><dl class="dla">
@@ -57,7 +49,7 @@
 <div class="rpd displayinlb">
 <div class="rpdtop">
 <h3>Responsive Design</h3>
-<p><em>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</em>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
 </p>
 	</div>
 <a href="#" class="readmore displayb">Read More</a>
@@ -105,25 +97,17 @@
  	<h2>Contact</h2>
     <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </span>
     <br />
-    <form class="contactfm" method="post" action="mysql/contact.php">
+    <form class="contactfm" method="post" action="results.php">
     <ul>
-    <li><input type="text" placeholder="Name" name="nameterm" maxlength="22"></input></li>
-    <li><input type="text" placeholder="Email" name="emailterm" maxlength="22"></input></li>
-    <li><input type="text" placeholder="Subject" name="subjectterm" maxlength="22"></input></li>
+    <li><input type="text" placeholder="Name" name="searchterm" maxlength="22"></input></li>
+    <li><input type="text" placeholder="Email" name="searchterm" maxlength="22"></input></li>
+    <li><input type="text" placeholder="Subject" name="searchterm" maxlength="22"></input></li>
     	</ul>
-    <textarea class="contactms displayinlb" rows="7" cols="30" placeholder="Message" name="messageterm" maxlength="500"></textarea>
+    <textarea class="contactms displayinlb" rows="7" cols="30" placeholder="Message" name="searchterm" maxlength="500"></textarea>
     <br />
     <input class="contactsb displayinlb" type="submit" value="Submit Message" name="submit"></input>
     </form>
     </div>
     <br />
-   <div id="footer" class="displayinlb">
-   		<ul>
-        	<li><a href="#"><span class="sociala"></span></a></li>
-            <li><a href="#"><span class="socialb"></span></a></li>
-            <li><a href="#"><span class="socialc"></span></a></li>
-            	</ul>
-    <span class="crt displayinlb">Copyright&copy;2014.Company name All rights reserved.网页模板 - More Templates </span>
-                </div>
-</body>
-</html>
+    <?php echo $_smarty_tpl->getSubTemplate ("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+<?php }} ?>

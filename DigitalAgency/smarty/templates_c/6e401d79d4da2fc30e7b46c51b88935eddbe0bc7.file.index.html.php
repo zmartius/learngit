@@ -1,4 +1,25 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2014-11-11 08:57:11
+         compiled from "index.html" */ ?>
+<?php /*%%SmartyHeaderCode:2018854615ee75d87d7-40610885%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '6e401d79d4da2fc30e7b46c51b88935eddbe0bc7' => 
+    array (
+      0 => 'index.html',
+      1 => 1415666545,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '2018854615ee75d87d7-40610885',
+  'function' => 
+  array (
+  ),
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.21-dev',
+  'unifunc' => 'content_54615ee7672f90_55586272',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_54615ee7672f90_55586272')) {function content_54615ee7672f90_55586272($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
@@ -7,7 +28,9 @@
 <link rel="shortcut icon" type="image/x-icon" href="Home_files/fav-icon.png" />
 <title>digitalagency</title>
 <link href="digitalagency.css" rel="stylesheet" type="text/css" />
-<script src="home.js"></script>
+<?php echo '<script'; ?>
+ src="home.js"><?php echo '</script'; ?>
+>
 </head>
 <body>
 <div class="header displayb">
@@ -57,7 +80,7 @@
 <div class="rpd displayinlb">
 <div class="rpdtop">
 <h3>Responsive Design</h3>
-<p><em>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</em>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
 </p>
 	</div>
 <a href="#" class="readmore displayb">Read More</a>
@@ -105,13 +128,13 @@
  	<h2>Contact</h2>
     <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </span>
     <br />
-    <form class="contactfm" method="post" action="mysql/contact.php">
+    <form class="contactfm" method="post" action="results.php">
     <ul>
-    <li><input type="text" placeholder="Name" name="nameterm" maxlength="22"></input></li>
-    <li><input type="text" placeholder="Email" name="emailterm" maxlength="22"></input></li>
-    <li><input type="text" placeholder="Subject" name="subjectterm" maxlength="22"></input></li>
+    <li><input type="text" placeholder="Name" name="searchterm" maxlength="22"></input></li>
+    <li><input type="text" placeholder="Email" name="searchterm" maxlength="22"></input></li>
+    <li><input type="text" placeholder="Subject" name="searchterm" maxlength="22"></input></li>
     	</ul>
-    <textarea class="contactms displayinlb" rows="7" cols="30" placeholder="Message" name="messageterm" maxlength="500"></textarea>
+    <textarea class="contactms displayinlb" rows="7" cols="30" placeholder="Message" name="searchterm" maxlength="500"></textarea>
     <br />
     <input class="contactsb displayinlb" type="submit" value="Submit Message" name="submit"></input>
     </form>
@@ -127,3 +150,4 @@
                 </div>
 </body>
 </html>
+<?php }} ?>
