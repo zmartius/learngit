@@ -6,5 +6,6 @@
             	</ul>
     <span class="crt displayinlb">Copyright&copy;<{$copytime}>.Company name All rights reserved.ÍøÒ³Ä£°å - More Templates </span>
                 </div>
+              
 </body>
 </html>

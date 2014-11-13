@@ -23,12 +23,13 @@
         	 </ul>
     <a href="#" class="maila displayinlb"><span class="mail displayinlb"></span></a>
     <a href="#" class="navlist displayinlb maila"><span class="navli mail displayinlb"></span></a>
-  <!--<ul class="navlistul">
+ <!-- <div id="navright">
+  	<ul class="navlistul">
     	<li><a href="#">Home</a></li>
 		<li><a href="#">About</a></li>
 		<li><a href="#">Portfolio</a></li>
 		<li><a href="#">Testimonials</a></li>
-        	 </ul>-->
+        	 </ul></div>-->
        </div>
        </div>
 <div id="container">
@@ -90,13 +91,15 @@
  </div>
  
  <div class="carousel-inner">
- <img src="Home_files/people.jpg" class="name displayinlb" alt="myname" />
+ <img src="Home_files/people.jpg" class="name displayinlb" alt="myname" id="carouselname" />
  <dl>
 <dt>Dan Cederholm</dt>
 <dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</dd>
 
  <dd class="pagenate">
- 	<a href="#"><span class="pagenatea"></span><span class="pagenateb"></span></a><a href="#"><span class="pagenatec"></span></a>
+ 	<a href="Home_files/people.jpg" onclick="showPic(this);return false;" title="1"><span class="pagenatea"></span></a>
+    <a href="Home_files/people.jpg" onclick="showPic(this);return false;" title="2"><span class="pagenateb"></span></a>
+    <a href="Home_files/people.jpg" onclick="showPic(this);return false;" title="3"><span class="pagenatec"></span></a>
    </dd>
     </dl>
  </div>
@@ -119,12 +122,13 @@
     <br />
    <div id="footer" class="displayinlb">
    		<ul>
-        	<li><a href="#"><span class="sociala"></span></a></li>
+        	<li><a href="#" ><span class="sociala"></span></a></li>
             <li><a href="#"><span class="socialb"></span></a></li>
             <li><a href="#"><span class="socialc"></span></a></li>
             	</ul>
+           
     <span class="crt displayinlb">Copyright&copy;2014.Company name All rights reserved.ÍøÒ³Ä£°å - More Templates </span>
-                </div>
-<script src="home.js"></script>                
+                </div>              
 </body>
+ <script type="text/javascript" src="home.js"> </script>   
 </html>

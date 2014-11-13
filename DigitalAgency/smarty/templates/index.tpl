@@ -59,28 +59,31 @@
  </div>
  
  <div class="carousel-inner">
- <img src="Home_files/people.jpg" class="name displayinlb" alt="myname" />
+ <img src="Home_files/people.jpg" class="name displayinlb" alt="myname" id="carouselname"  />
  <dl>
 <dt>Dan Cederholm</dt>
 <dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</dd>
 
  <dd class="pagenate">
- 	<a href="#"><span class="pagenatea"></span><span class="pagenateb"></span></a><a href="#"><span class="pagenatec"></span></a>
+ 	<a href="Home_files/people.jpg" onclick="showPic(this);return false;" title="1"><span class="pagenatea"></span></a>
+    <a href="Home_files/people.jpg" onclick="showPic(this);return false;" title="2"><span class="pagenateb"></span></a>
+    <a href="Home_files/people.jpg" onclick="showPic(this);return false;" title="3"><span class="pagenatec"></span></a>
    </dd>
     </dl>
+    <script type="text/javascript" src="home.js"> </script>  
  </div>
  
  <div id="contact">
- 	<h2>Contact</h2>
+ <{insert name="getPara" p1="<{$contact}>"}>  
     <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </span>
     <br />
-    <form class="contactfm" method="post" action="results.php">
+    <form class="contactfm" method="post" action="mysql/contact.php">
     <ul>
-    <li><input type="text" placeholder="Name" name="searchterm" maxlength="22"></input></li>
-    <li><input type="text" placeholder="Email" name="searchterm" maxlength="22"></input></li>
-    <li><input type="text" placeholder="Subject" name="searchterm" maxlength="22"></input></li>
+    <li><input type="text" placeholder="Name" name="nameterm" maxlength="22"></input></li>
+    <li><input type="text" placeholder="Email" name="emailterm" maxlength="22"></input></li>
+    <li><input type="text" placeholder="Subject" name="subjectterm" maxlength="22"></input></li>
     	</ul>
-    <textarea class="contactms displayinlb" rows="7" cols="30" placeholder="Message" name="searchterm" maxlength="500"></textarea>
+    <textarea class="contactms displayinlb" rows="7" cols="30" placeholder="Message" name="messageterm" maxlength="500"></textarea>
     <br />
     <input class="contactsb displayinlb" type="submit" value="Submit Message" name="submit"></input>
     </form>

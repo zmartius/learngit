@@ -29,11 +29,12 @@ a.maila{padding:0;vertical-align:baseline;text-align:left}
 .mail{width:32px;height:32px;margin:0;background:url(Home_files/msg.png) no-repeat 0 0;padding:0;}
 a.navlist{vertical-align:baseline;}
 .navli{height:24px;background:url(Home_files/nav-icon.png) no-repeat 0 0;}
-/*.navlistul{display:none;width:100px;height:400px;}
-.navlistul li{float:none;display:none;}
-.navlist:hover .navlistul{display:block;z-index:20;}
-.navlist
-*/
+
+#navright{display:display;width:30px;height:auto; background:none;position:fixed;top:100px;left:90%;}
+#navright .navlistul{;}
+#navright .navlistul li{float:none;}
+a.navlist:hover #navright{display:block;z-index:20;}
+.navlist{}
 
 #container{text-align:center;padding-left:0;color:#888888;;width:100%;height:auto;margin-bottom:1em;display:inline; clear:both}
 #container ul{display:inline-block}

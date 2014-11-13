@@ -7,6 +7,5 @@
 <link rel="shortcut icon" type="image/x-icon" href="Home_files/fav-icon.png" />
 <title><{$title}></title>
 <link href="digitalagency.css" rel="stylesheet" type="text/css" />
-<script src="home.js"></script>
 </head>
 <body>
