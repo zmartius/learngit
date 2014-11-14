@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2014-11-12 19:45:16
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2014-11-14 22:08:18
          compiled from "D:\wwwroot\DigitalAgency\smarty\templates\index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:154685463484c2b25f3-93595621%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '137d97aa5b0879877b5df6e3ab43fec0c2b3c46f' => 
     array (
       0 => 'D:\\wwwroot\\DigitalAgency\\smarty\\templates\\index.tpl',
-      1 => 1415759403,
+      1 => 1415970912,
       2 => 'file',
     ),
   ),
@@ -15,13 +15,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.21-dev',
+  'unifunc' => 'content_5463484c33a040_66802414',
   'variables' => 
   array (
     'contact' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.21-dev',
-  'unifunc' => 'content_5463484c33a040_66802414',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5463484c33a040_66802414')) {function content_5463484c33a040_66802414($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
@@ -103,8 +103,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
  </div>
  
  <div id="contact">
- <?php echo insert_getPara(array('p1' => ((string)$_smarty_tpl->tpl_vars['contact']->value)),$_smarty_tpl);?>
-  
+	 <h2><?php echo insert_getPara(array('p1' => ((string)$_smarty_tpl->tpl_vars['contact']->value)),$_smarty_tpl);?>
+  </h2>
     <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </span>
     <br />
     <form class="contactfm" method="post" action="mysql/contact.php">
