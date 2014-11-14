@@ -1,9 +1,9 @@
 <?php
 require "smarty/init.inc.php";
-$tpl->assign("title", "DigitalAgency");
-$tpl->assign("copytime","2015");
-$tpl->assign("h1title","We are a Creative Digital Agency");
-$tpl->assign("contact","Contact");
+$smarty->assign("title", "DigitalAgency");
+$smarty->assign("copytime","2015");
+$smarty->assign("h1title","We are a Creative Digital Agency");
+$smarty->assign("contact","Contact");
 $_SESSION["username"]="guest";
 $_SESSION["uid"]=1;
 
@@ -12,7 +12,6 @@ $_SESSION["uid"]=1;
 
 function insert_getPara($arr){
 	return $arr["p1"];
-
 }
-$tpl->display("index.tpl");
+$smarty->display("index.tpl");
 ?>

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2014-11-14 10:14:44
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2014-11-14 13:37:39
          compiled from "E:\site\DigitalAgency\smarty\templates\header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:77695461735eb6ffa1-62455677%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'bc07996d3921538a84bec09efb6a0f1ba5811cb9' => 
     array (
       0 => 'E:\\site\\DigitalAgency\\smarty\\templates\\header.tpl',
-      1 => 1415931275,
+      1 => 1415943345,
       2 => 'file',
     ),
   ),
@@ -23,7 +23,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5461735eb8b366_13482431')) {function content_5461735eb8b366_13482431($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if ($_valid && !is_callable('content_5461735eb8b366_13482431')) {function content_5461735eb8b366_13482431($_smarty_tpl) {?><?php if (!is_callable('smarty_function_datenow')) include 'E:/site/DigitalAgency/smarty/plugins\\function.datenow.php';
+?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
@@ -35,5 +36,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <link href="digitalagency.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<p>您好:<?php echo $_SESSION['username'];?>
+<p><?php echo smarty_function_datenow(array(),$_smarty_tpl);?>
+您好:<?php echo $_SESSION['username'];?>
 ,个人中心</p><?php }} ?>
