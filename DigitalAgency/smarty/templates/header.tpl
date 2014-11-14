@@ -9,3 +9,4 @@
 <link href="digitalagency.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+<p>您好:<{$smarty.session.username}>,个人中心</p>

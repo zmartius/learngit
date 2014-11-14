@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2014-11-12 14:27:55
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2014-11-14 09:06:48
          compiled from "E:\site\DigitalAgency\smarty\templates\index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:211525461735ea963e4-33041009%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '189585f8d11582dc03ce54cbf59444a4928565a3' => 
     array (
       0 => 'E:\\site\\DigitalAgency\\smarty\\templates\\index.tpl',
-      1 => 1415759403,
+      1 => 1415927192,
       2 => 'file',
     ),
   ),
@@ -103,8 +103,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
  </div>
  
  <div id="contact">
- <?php echo insert_getPara(array('p1' => ((string)$_smarty_tpl->tpl_vars['contact']->value)),$_smarty_tpl);?>
-  
+	 <h2><?php echo insert_getPara(array('p1' => ((string)$_smarty_tpl->tpl_vars['contact']->value)),$_smarty_tpl);?>
+  </h2>
     <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </span>
     <br />
     <form class="contactfm" method="post" action="mysql/contact.php">

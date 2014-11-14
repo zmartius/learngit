@@ -1,13 +1,13 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2014-11-12 08:48:18
-         compiled from ".\smarty\templates\header.tpl" */ ?>
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2014-11-14 10:14:44
+         compiled from "E:\site\DigitalAgency\smarty\templates\header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:77695461735eb6ffa1-62455677%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'bc07996d3921538a84bec09efb6a0f1ba5811cb9' => 
     array (
-      0 => '.\\smarty\\templates\\header.tpl',
-      1 => 1415753221,
+      0 => 'E:\\site\\DigitalAgency\\smarty\\templates\\header.tpl',
+      1 => 1415931275,
       2 => 'file',
     ),
   ),
@@ -35,4 +35,5 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <link href="digitalagency.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<?php }} ?>
+<p>您好:<?php echo $_SESSION['username'];?>
+,个人中心</p><?php }} ?>

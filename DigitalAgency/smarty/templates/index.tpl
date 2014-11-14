@@ -74,7 +74,7 @@
  </div>
  
  <div id="contact">
- <{insert name="getPara" p1="<{$contact}>"}>  
+	 <h2><{insert name="getPara" p1="<{$contact}>"}>  </h2>
     <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </span>
     <br />
     <form class="contactfm" method="post" action="mysql/contact.php">
